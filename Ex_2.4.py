@@ -6,8 +6,11 @@ print(toPrint)
 # Ask user to input ten numbers.
 # If no odd numbers entered print a message that no odd number entered
 # if odd numbers entered print out the larget odd number
+
+# Create an empty list
 chars = []
-for i in range(0,10):
+# This gives the numbers 0 - 9
+for i in range(0, 10):
     # Add the numbers to a list and give a count of the numbers entered
     chars.append(input("Entry #" + str(i + 1) + ' '))
 
