@@ -17,7 +17,7 @@ for i in range(0, 10):
 biggest = 0
 for i in range(0, len(chars)):
     # Check if this is an odd number
-    if int(chars[i])% 2 != 0:
+    if int(chars[i]) %2 != 0:
         # If the int is bigger than the accumulator
         if int(chars[i]) > biggest:
             # Add the accumulator == the biggest
